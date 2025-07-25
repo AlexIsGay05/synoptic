@@ -292,3 +292,121 @@ h3{
     cursor: pointer;
     padding: 18px 0;
 }
+
+/*-----About Page-----*/
+.sub_header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/mcast_2.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub_header h1{
+    margin-top: 100px;
+}
+
+.about_us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about_col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.about_col img{
+    width: 100%;
+}
+
+.about_col h1{
+    padding-top: 0%;
+}
+
+.about_col p{
+    padding: 15px 0 25px;
+}
+
+.blue_btn{
+    border: 1px solid #000043;
+    background: transparent;
+    color: #000043;
+}
+
+.blue_btn:hover{
+    color: #ccccdf;
+}
+
+/*----Blog content----*/
+
+.blog_content{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.blog_left{
+    flex-basis: 65%;
+}
+.blog_left img{
+    width: 100%;
+}
+.blog_left h2{
+    color: #222;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.blog_left p{
+    color: #999;
+    padding: 0;
+}
+
+.blog_right{
+    flex-basis: 32%;
+}
+
+.blog_right h3{
+    background: #000043;
+    color: #fff;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.blog_right div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #555;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.comment_box{
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+
+.comment_box h3{
+    text-align: left;
+}
+
+.comment_form input, .comment_form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+}
+
+.comment_form button{
+    margin: 10px 0;
+}
