@@ -74,21 +74,22 @@
                 <div>
                     <i class="fa-solid fa-envelope"></i>
                     <span>
-                        <h5>information@mcast.edu.mt</h5>
+                        <h5><a href="mailto:information@mcast.edu.mt"> information@mcast.edu.mt</a></h5>
                     </span>
                 </div>
             </div>
             <div class="contact_col">
 
-                <form action="form_handler.php" method="post">
-                    <input type="text" name="name" placeholder="Name" required>
-                    <input type="email" name="email" placeholder="Email Address" required>
-                    <input type="text" name="subject" placeholder="Subject" required>
-                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <form action="mailto:information@mcast.edu.mt" method="post" enctype="text/plain">
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="text" name="email" placeholder="Email Address">
+                    <textarea rows="8" name="message" placeholder="Message"></textarea>
                     <button type="submit" class="hero_btn blue_btn">Send Message</button>
                 </form>
             </div>
         </div>
+
+        
     </section>
 
     
